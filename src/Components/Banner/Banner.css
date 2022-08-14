@@ -1,0 +1,12 @@
+.banner-section{
+    background-image: url(../../images/banner-bg.png);
+    min-height: 100vh;
+    background-repeat :no-repeat;
+    background-size : contain
+}
+
+@media (max-width:777px){
+    .banner-section{
+        background-size: cover;
+    }
+}
